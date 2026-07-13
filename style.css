@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(135deg, #000000, #3c2552);
+    margin: 0;
+    background: linear-gradient(135deg, #000000, #210e33);
     color: white;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -10,4 +11,21 @@ body {
 
     justify-content: center;
     align-items: center;
+}
+
+#message {
+    font-size: 55px;
+}
+
+#fop {
+     position: fixed;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
 }
