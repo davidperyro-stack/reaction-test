@@ -11,10 +11,13 @@ body {
 
     justify-content: center;
     align-items: center;
+
+    transition: background 0.3s ease;
 }
 
 #message {
     font-size: 55px;
+        text-shadow: 0 0 15px #7a3cff;
 }
 
 #fop {
@@ -30,3 +33,9 @@ h1 {
     margin-bottom: 10px;
     text-shadow: 0 0 15px #7a3cff;
 }
+
+#stats {
+    text-align: center;
+    margin-top: 30px;
+}
+
